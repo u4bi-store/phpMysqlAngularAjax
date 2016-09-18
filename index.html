@@ -1,0 +1,40 @@
+<html ng-app="AppU4bi">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/u4bi.css"/>
+
+</head>
+<body ng-controller="U4biAppController">
+	<div class="row">
+
+		<!--리스트단-->
+    	<div class="container">
+			<div class="col-lg-9">
+				<div ng-include src="'module/list.html'"></div>
+			</div>
+    	</div>
+
+		<!--1번 보드단-->
+    	<div class="container">
+			<div class="col-lg-9">
+				<h4>1번보드 출력단</h4>
+				<div ng-include src="'module/notice_1.html'"></div>
+			</div>
+    	</div>
+		<!--2번 보드단-->
+    	<div class="container">
+			<div class="col-lg-9">
+				<h4>2번보드 출력단</h4>
+				<div ng-include src="'module/notice_2.html'"></div>
+			</div>
+    	</div>
+	</div>
+    	
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="angular/app.js"></script>
+	<script type="text/javascript" src="angular/controller.js"></script>
+	<script type="text/javascript" src="angular/service.js"></script>
+	
+</body>
+</html>
