@@ -13,7 +13,7 @@
 		$jsonArray = array();
 
 		while($row = mysqli_fetch_assoc($temp)){
-			$jsonArray[$tick] = array('id'=>$row["id"], 'name'=>$row["name"], 'age'=>$row["age"]);
+			$jsonArray[$tick] = array('id'=>$row["id"], 'name'=>$row["name"], 'pwd'=>$row["pwd"]);
 			$tick++;
 		}
 		echo json_encode($jsonArray);

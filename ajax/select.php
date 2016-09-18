@@ -12,7 +12,7 @@
 
 	function setJson($temp){
 		$row = mysqli_fetch_assoc($temp);
-		$json = array('id'=>$row['id'], 'name'=>$row['name'], 'age'=>$row["age"]);
+		$json = array('id'=>$row['id'], 'name'=>$row['name'], 'pwd'=>$row["pwd"]);
 		echo json_encode($json);
 	}
 ?>

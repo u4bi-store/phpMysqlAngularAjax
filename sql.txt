@@ -1,0 +1,12 @@
+/*
+create table user_table(
+	id int primary key auto_increment
+	, name varchar(24) not null
+	, pwd varchar(24) not null
+);
+
+insert into user_table (name, pwd) values ('u4bi1', 'pwd1234');
+insert into user_table (name, pwd) values ('u4bi1', 'pf2312');
+insert into user_table (name, pwd) values ('u4bi1', 'ad1234');
+
+*/
